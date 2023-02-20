@@ -1,0 +1,173 @@
+/*
+Theme Name: Blossom eCommerce
+Theme URI: https://blossomthemes.com/wordpress-themes/blossom-ecommerce/
+Template: blossom-shop  
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Blossom eCommerce is a clean, fast and feature-rich free WordPress theme to create an online shop. This theme is compatible with WooCommerce to help you build all kinds of online stores such as fashion, cosmetics, jewelry, furniture, accessories, lifestyle, decoration, gadgets, books, home appliances, clothes, automobiles, movies, and so on. The theme includes multiple sections to easily display your products and information about your store. You can easily change the look and feel of your website using unlimited colors and 1000+ Google fonts with a single click. The theme is mobile friendly, SEO Optimized, Schema friendly and loads fast to provide a smooth experience to your visitor. Check theme details at https://blossomthemes.com/wordpress-themes/blossom-ecommerce, demo at https://blossomthemes.com/theme-demo/?theme=blossom-ecommerce, read the documentation at https://docs.blossomthemes.com/blossom-ecommerce, and get support at https://blossomthemes.com/support-ticket/.
+Requires PHP: 5.6
+Tested up to: 6.0
+Version: 1.0.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: blossom-ecommerce
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+/*--------------------------------------------------------------
+# variable
+--------------------------------------------------------------*/
+
+:root {
+  --primary-color: #dde9ed;
+  --primary-color-rgb: 221, 233, 237;
+  --secondary-color: #f25529;
+  --secondary-color-rgb: 242, 85, 41;
+  --font-color: #474747;
+  --font-color-rgb: 71, 71, 71;
+  --black-color: #000;
+  --black-color-rgb: 0, 0, 0;
+  --white-color: #ffffff;
+  --white-color-rgb: 255, 255, 255;
+  --primary-font: "DM Sans", sans-serif;
+  --secondary-font: "Playfair Display", serif;
+}
+/*--------------------------------------------------------------
+# header two
+--------------------------------------------------------------*/
+.header-two .header-main .site-branding {
+  text-align: left;
+  flex-direction: row;
+  align-items: center;
+}
+.header-two .header-main .site-branding.text-image .site-title-wrap {
+  padding-left: 15px;
+}
+.header-two .header-main .site-branding:not(.text-image) {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+
+.header-two .header-main .site-branding .site-logo + .site-title-wrap {
+  margin-top: 0;
+  padding-left: 15px;
+}
+.header-two .header-main .main-navigation {
+  width: auto;
+  justify-content: center;
+  flex: auto;
+}
+@media screen and (min-width: 1024px) {
+  .header-two .header-main .container{
+    flex-wrap: nowrap;
+  }
+  .header-two .header-main .main-navigation {
+    margin: 0 30px;
+  }
+  .header-main .site-branding, .header-main .right{
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-two .header-main .site-branding,
+  .header-two .header-main .right,
+  .header-two .header-main .main-navigation {
+    width: auto;
+  }
+  .header-two .header-main .main-navigation {
+    flex: initial;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-two .header-main .site-branding {
+    width: calc(100% - 30px);
+    justify-content: flex-start;
+    
+  }
+  .header-two .header-main .site-branding.text-image .site-title-wrap{
+    padding-left: 0;
+  }
+  .header-two .header-main .site-branding .site-logo + .site-title-wrap {
+    margin-top: 5px;
+    padding-left: 0;
+  }
+  .header-two .header-main .main-navigation {
+    width: auto;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  .header-two .header-main .right {
+    width: auto;
+    flex: auto;
+  }
+  
+}
+@media screen and (max-width: 558px) {
+  .header-two .header-main .site-branding {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-two .header-main .site-branding.text-image .site-title-wrap{
+    padding-left: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# popular product section
+--------------------------------------------------------------*/
+.popular-prod-section {
+  text-align: center;
+}
+
+.popular-prod-section .popular-prod-grid {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+
+.popular-prod-section .popular-prod-grid .item {
+  width: 23%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 60px;
+}
+
+.popular-prod-section .button-wrap {
+  margin-top: 15px;
+}
+
+.popular-prod-section .button-wrap .btn-readmore {
+  font-size: 0.7em;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-weight: 700;
+  background: #000000;
+  color: #ffffff;
+  padding: 15px 30px;
+}
+.popular-prod-section .button-wrap .btn-readmore:hover {
+  color: var(--font-color);
+}
+.instagram-section .profile-link{
+  font-size: 1.1em;
+}
+section[class*="-cat-section"].style-three .cat-feature img{
+  position: absolute;
+  top: 0;
+  left:0;
+}
+@media(max-width:767px){
+  .popular-prod-section .popular-prod-grid .item{
+    width:48%;
+  }
+}
+@media(max-width:575px){
+  .popular-prod-section .popular-prod-grid .item{
+    width:100%;
+  }
+}

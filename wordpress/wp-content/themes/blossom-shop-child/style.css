@@ -1,0 +1,58 @@
+/*
+Theme Name: Blossom Shop Child
+Theme URI: https://blossomthemes.com/wordpress-themes/blossom-shop/
+Template: blossom-shop
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Blossom Shop is a clean, fast and feature-rich free WordPress theme to create online stores. It is powered by WooCommerce plugin. You can use it to build all kinds of online shop such as fashion, cosmetics, jewelry, furniture, accessories, lifestyle, decoration, gadgets, books, home appliances, clothes, automobiles, movies, and so so. Blossom Shop is designed to highlight products and provide user experience of the highest quality so that your products are sold easily like candy. You can easily change the look and feel of your website using the color and typography features. You can change the color to purple, pink, cyan or any color you like. The theme is mobile friendly and fully responsive to ensure your website looks great in different sized devices. Beautifully placed Instagram section can be used to show your Instagram account and increase your followers. Blossom Shop is Schema.org ready, SEO friendly and speed optimized so that your website ranks over your competitors. It is multilingual ready and supports RTL. Other features include social sharing, Instagram profile, newsletter subscription, similar products, sales ribbon and Mega Menu compatible. In addition, Blossom Shop is backed by world class, one-on-one support, and a super active team of developers and designers ready to help! Check theme details at https://blossomthemes.com/downloads/blossom-shop-free-wordpress-theme/, demo at https://blossomthemes.com/theme-demo/?theme=blossom-shop, read the documentation at https://docs.blossomthemes.com/docs/blossom-shop/, and get support at https://blossomthemes.com/support-ticket/.
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,e-commerce
+Version: 1.1.4.1666563801
+Updated: 2022-10-23 18:23:21
+
+*/
+
+.wp-block-group__inner-container{
+	padding: 30px 20px;
+	margin-top: 30px;
+}
+
+.wc-block-grid__product-add-to-cart a{
+	color: white;
+}
+a.wp-block-button__link {
+    text-decoration: none;
+}
+.wp-block-cover__inner-container p{
+	margin: 30px 0;
+}
+.page-header{
+	display: none;
+}
+.wp-block-cover{
+	height: 75vh;
+	margin: 0px 0px 50px 0px;
+}
+.wp-block-cover p{
+	width: 70%;
+	margin: 40px auto ;
+}
+
+.wp-container-2, .wp-container-3, .wp-container-4{
+	border-radius: 15px;
+}
+.wp-container-2 p{
+	margin: auto 11px;
+}
+.wp-container-3 p{
+	margin: auto 11px;
+}
+.wp-container-4 p{
+	margin: auto 11px;
+}
+
+.column-1 div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+

@@ -1,0 +1,199 @@
+Log created: 2022-10-23 23:16:27
+Type: backup
+[2022-10-23 23:16:28][notice]Start backing up.
+[2022-10-23 23:16:28][notice]server info fcgi:Off max execution time: 900 wp version:6.0.3 php version:8.1.6 db version:10.4.21 php ini:safe_mode: memory_limit:256M memory_get_usage:74.42 MB memory_get_peak_usage:75.12 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-10-23 23:16:28][notice]Prepare to backup backup_db files.
+[2022-10-23 23:16:28][notice]Start exporting database.
+[2022-10-23 23:16:28][notice]max_allowed_packet less than 32M :1.00 MB
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_actionscheduler_actions
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_actionscheduler_claims
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_actionscheduler_groups
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_actionscheduler_logs
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_commentmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_comments
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_links
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_options
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_postmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_posts
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsactionscheduler_actions
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsactionscheduler_claims
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsactionscheduler_groups
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsactionscheduler_logs
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specscommentmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specscomments
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsgla_budget_recommendations
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsgla_merchant_issues
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsgla_shipping_rates
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsgla_shipping_times
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specslinks
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_custom_fields
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_dynamic_segment_filters
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_feature_flags
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_forms
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_log
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_mapping_to_external_entities
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_newsletter_links
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_newsletter_option
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_newsletter_option_fields
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_newsletter_posts
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_newsletter_segment
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_newsletter_templates
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_newsletters
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_scheduled_task_subscribers
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_scheduled_tasks
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_segments
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_sending_queues
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_settings
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_statistics_bounces
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_statistics_clicks
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_statistics_forms
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_statistics_newsletters
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_statistics_opens
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_statistics_unsubscribes
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_statistics_woocommerce_purchases
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_stats_notifications
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_subscriber_custom_field
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_subscriber_ips
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_subscriber_segment
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_subscriber_tag
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_subscribers
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_tags
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_user_agents
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsmailpoet_user_flags
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsoptions
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specspostmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsposts
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsterm_relationships
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsterm_taxonomy
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specstermmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsterms
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsusermeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specsusers
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_admin_note_actions
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_admin_notes
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_category_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_customer_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_download_log
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_order_coupon_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_order_product_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_order_stats
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_order_tax_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_product_attributes_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_product_download_directories
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_product_meta_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_rate_limits
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_reserved_stock
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_tax_rate_classes
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswc_webhooks
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_api_keys
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_attribute_taxonomies
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_downloadable_product_permissions
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_log
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_order_itemmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_order_items
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_payment_tokenmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_payment_tokens
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_sessions
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_shipping_zone_locations
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_shipping_zone_methods
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_shipping_zones
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_tax_rate_locations
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_specswoocommerce_tax_rates
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_term_relationships
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_term_taxonomy
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_termmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_terms
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_usermeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_users
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_admin_note_actions
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_admin_notes
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_category_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_customer_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_download_log
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_order_product_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_order_stats
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_product_attributes_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_product_download_directories
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_rate_limits
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_reserved_stock
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wc_webhooks
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_api_keys
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_attribute_taxonomies
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_downloadable_product_permissions
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_log
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_order_itemmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_order_items
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_payment_tokenmeta
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_payment_tokens
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_sessions
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_shipping_zone_locations
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_shipping_zone_methods
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_shipping_zones
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_tax_rate_locations
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_woocommerce_tax_rates
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_wpvivid_options
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_yoast_indexable
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_yoast_migrations
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_yoast_primary_term
+[2022-10-23 23:16:28][notice]Preparing to dump table wp_yoast_seo_links
+[2022-10-23 23:16:28][notice]Exporting database finished.
+[2022-10-23 23:16:28][notice]Start compressing backup_db
+[2022-10-23 23:16:28][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_db.zip
+[2022-10-23 23:16:28][notice]Adding zip files completed.localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_db.zip, filesize: 6.86 MB
+[2022-10-23 23:16:28][notice]Compressing backup_db completed
+[2022-10-23 23:16:28][notice]Backing up backup_db completed.
+[2022-10-23 23:16:28][notice]Prepare to backup backup_themes files.
+[2022-10-23 23:16:28][notice]File number: 608
+[2022-10-23 23:16:28][notice]Start compressing backup_themes
+[2022-10-23 23:16:28][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_themes.zip
+[2022-10-23 23:16:28][notice]Adding zip files completed.localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_themes.zip, filesize: 19.01 MB
+[2022-10-23 23:16:28][notice]Compressing backup_themes completed
+[2022-10-23 23:16:28][notice]Backing up backup_themes completed.
+[2022-10-23 23:16:28][notice]Prepare to backup backup_plugin files.
+[2022-10-23 23:16:28][notice]File number: 6640
+[2022-10-23 23:16:28][notice]Start compressing backup_plugin
+[2022-10-23 23:16:29][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_plugin.zip
+[2022-10-23 23:16:30][notice]Adding zip files completed.localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_plugin.zip, filesize: 44.34 MB
+[2022-10-23 23:16:30][notice]Compressing backup_plugin completed
+[2022-10-23 23:16:30][notice]Backing up backup_plugin completed.
+[2022-10-23 23:16:30][notice]Prepare to backup backup_uploads files.
+[2022-10-23 23:16:30][notice]File number: 424
+[2022-10-23 23:16:30][notice]Start compressing backup_uploads
+[2022-10-23 23:16:30][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_uploads.zip
+[2022-10-23 23:16:30][notice]Adding zip files completed.localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_uploads.zip, filesize: 36.62 MB
+[2022-10-23 23:16:30][notice]Compressing backup_uploads completed
+[2022-10-23 23:16:30][notice]Backing up backup_uploads completed.
+[2022-10-23 23:16:30][notice]Prepare to backup backup_content files.
+[2022-10-23 23:16:30][notice]File number: 72
+[2022-10-23 23:16:30][notice]Start compressing backup_content
+[2022-10-23 23:16:30][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_content.zip
+[2022-10-23 23:16:30][notice]Adding zip files completed.localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_content.zip, filesize: 2.57 MB
+[2022-10-23 23:16:30][notice]Compressing backup_content completed
+[2022-10-23 23:16:30][notice]Backing up backup_content completed.
+[2022-10-23 23:16:30][notice]Prepare to backup backup_core files.
+[2022-10-23 23:16:30][notice]File number: 2483
+[2022-10-23 23:16:30][notice]Start compressing backup_core
+[2022-10-23 23:16:30][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_core.zip
+[2022-10-23 23:16:31][notice]Adding zip files completed.localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_core.zip, filesize: 47.66 MB
+[2022-10-23 23:16:31][notice]Compressing backup_core completed
+[2022-10-23 23:16:31][notice]Backing up backup_core completed.
+[2022-10-23 23:16:31][notice]Prepare to backup backup_merge files.
+[2022-10-23 23:16:31][notice]File number: 6
+[2022-10-23 23:16:31][notice]Start compressing backup_merge
+[2022-10-23 23:16:31][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_all.zip
+[2022-10-23 23:16:35][notice]Adding zip files completed.localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_all.zip, filesize: 79.38 MB
+[2022-10-23 23:16:35][notice]Cleaned up file, filename: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/wpvividbackups/localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_core.zip
+[2022-10-23 23:16:35][notice]Cleaned up file, filename: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/wpvividbackups/localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_plugin.zip
+[2022-10-23 23:16:35][notice]Cleaned up file, filename: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/wpvividbackups/localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_uploads.zip
+[2022-10-23 23:16:35][notice]Cleaned up file, filename: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/wpvividbackups/localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_themes.zip
+[2022-10-23 23:16:35][notice]Cleaned up file, filename: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/wpvividbackups/localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_db.zip
+[2022-10-23 23:16:35][notice]Cleaned up file, filename: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/wpvividbackups/localhost_wordpress_wpvivid-6356038b47d42_2022-10-23-23-16_backup_content.zip
+[2022-10-23 23:16:35][notice]Compressing backup_merge completed
+[2022-10-23 23:16:35][notice]Backing up backup_merge completed.
+[2022-10-23 23:16:35][notice]Backup completed.
+[2022-10-23 23:16:35][notice]Backup succeeded.
